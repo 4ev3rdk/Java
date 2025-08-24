@@ -1,2 +1,2 @@
 # Java
-Basic and intermediate Programs
+Basic and Intermediate Programs
