@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But keep Java source files
+!*.java
+
+# Keep .gitignore itself
+!.gitignore
