@@ -1,8 +1,23 @@
-# Ignore everything
-*
+# IDE
+**/.idea/
+**/*.iml
+.vscode/
 
-# But keep Java source files
-!*.java
+# Java
+*.class
+*.log
 
-# Keep .gitignore itself
-!.gitignore
+# Build outputs
+target/
+build/
+out/
+.gradle/
+
+# Eclipse (if any)
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
