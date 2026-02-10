@@ -55,5 +55,7 @@ public class C01_Constructor {
         Student s1= new Student(s);
         System.out.println(s1.rno);
         System.out.println(s1.name);
+
+        System.out.println(s1); //some random value s1.toString wrote properly in 2.static/Innerclass
     }
 }

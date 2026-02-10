@@ -6,5 +6,7 @@ public class demo {
         message();
 
     }
-    static void message
+    public static void message () {
+        System.out.println("hello this is message");
+    }
 }
