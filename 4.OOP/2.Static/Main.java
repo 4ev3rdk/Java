@@ -14,7 +14,7 @@ public class Main {
 //      greeting ();
         fun();
         Main obj = new Main();
-        obj.fun2();
+        obj.fun2();  //this non static function fun2 is accessed with creating obj of main class
 
     }
 
@@ -25,6 +25,10 @@ public class Main {
 
             //you cannot access non static  stuff without referncing their instances in static context
             //here we referenced using instance(obj)
+
+            //*** dont get confuse with to obj with same name of Main(class) both are different here obj is
+            //scope  level for method fun()***///
+
              Main obj = new Main();
             obj.greeting();
 
