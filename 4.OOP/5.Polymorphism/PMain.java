@@ -1,3 +1,5 @@
+import Access.A;
+
 public class PMain {
    static void add(int a , String b) {
 
@@ -26,5 +28,13 @@ public class PMain {
 
         cir.area();
 
+
+
+
+        //access modfier test
+        A a = new A(4,"dk");
+        a.getNum();
+        System.out.println(a.getNum());
+//       int b = a.num;
     }
 }
