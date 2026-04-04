@@ -9,5 +9,6 @@ public class P06_CurrencyToUSD {
         double a = s.nextDouble();
         a=a/90;
         System.out.println("USD is %.2f:" + a);
+        System.out.printf("USD is %.2f:",a);
     }
 }
